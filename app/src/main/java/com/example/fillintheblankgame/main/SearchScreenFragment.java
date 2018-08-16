@@ -153,7 +153,7 @@ public class SearchScreenFragment extends Fragment implements SearchView.OnQuery
                 .setOrientation(ChipsLayoutManager.HORIZONTAL)
                 .setRowStrategy(ChipsLayoutManager.STRATEGY_DEFAULT )
                 .withLastRow(true)
-                .build();
+                .build();//
 
         recyclerView.setLayoutManager(chipsLayoutManager);
         Activity activity = getActivity();
