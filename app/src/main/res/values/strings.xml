@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Wiki Game</string>
+    <string name="search">Search by full name...</string>
+    <string name="clear_history">Clear history</string>
+    <string name="no_history">Paragraph history is empty!</string>
+    <string name="refresh">Refresh</string>
+    <string name="replay">Replay</string>
+    <string name="confirm">Are you sure you want to submit?</string>
+    <string name="score">Your Score is \n\n</string>
+    <string name="review">Review Result</string>
+    <string name="internet_error">Please check your internet connection!</string>
+
+    <string-array name="names">
+        <item>Narendra Modi</item>
+        <item>Sachin Tendulkar</item>
+        <item>Salman Khan</item>
+        <item>Sania Mirza</item>
+        <item>Amitabh Bachchan</item>
+        <item>Virat Kohli</item>
+        <item>Akshay kumar</item>
+        <item>Mithali Raj</item>
+        <item>Aishwarya Rai</item>
+        <item>Arvind Kejriwal</item>
+        <item>Mayawati</item>
+        <item>Rahul Gandhi</item>
+        <item>Madhuri Dixit</item>
+        <item>Amit Shah</item>
+        <item>Shashi Kapoor</item>
+        <item>Anushka Sharma</item>
+    </string-array>
+</resources>

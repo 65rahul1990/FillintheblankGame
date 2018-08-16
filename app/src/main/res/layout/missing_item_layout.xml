@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/frameLayout"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:padding="12dp"
+            android:text="Choose word"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+        <ImageView
+            android:layout_marginEnd="5dp"
+            android:id="@+id/cancel"
+            android:padding="12dp"
+            android:layout_toRightOf="@+id/text_view"
+            android:layout_gravity="center|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close_black_24dp" />
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="bottom|center">
+        <Button
+            android:text="Ok"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:id="@+id/save"
+            android:visibility="gone"
+            android:background="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</FrameLayout>
