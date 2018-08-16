@@ -147,7 +147,7 @@ public class SearchScreenFragment extends Fragment implements SearchView.OnQuery
         //LayoutManager for showing text as a paragraph
         ChipsLayoutManager chipsLayoutManager = ChipsLayoutManager.newBuilder(getActivity())
                 .setChildGravity(Gravity.TOP)
-                .setScrollingEnabled(false)
+                .setScrollingEnabled(true)
                 .setMaxViewsInRow(10)
                 .setGravityResolver(position -> Gravity.CENTER)
                 .setOrientation(ChipsLayoutManager.HORIZONTAL)
